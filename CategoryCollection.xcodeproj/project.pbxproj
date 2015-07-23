@@ -14,6 +14,7 @@
 		FE988C0F1B5E359100E71C89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE988C0E1B5E359100E71C89 /* Images.xcassets */; };
 		FE988C121B5E359100E71C89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE988C101B5E359100E71C89 /* LaunchScreen.xib */; };
 		FE988C1E1B5E359200E71C89 /* CategoryCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C1D1B5E359200E71C89 /* CategoryCollectionTests.m */; };
+		FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB912A01B60EA450055619F /* UINavigationController+Transitions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FE988C171B5E359200E71C89 /* CategoryCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C1C1B5E359200E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C1D1B5E359200E71C89 /* CategoryCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionTests.m; sourceTree = "<group>"; };
+		FEB9129F1B60EA450055619F /* UINavigationController+Transitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Transitions.h"; sourceTree = "<group>"; };
+		FEB912A01B60EA450055619F /* UINavigationController+Transitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Transitions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 		FEB9129B1B60E9150055619F /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FEB9129F1B60EA450055619F /* UINavigationController+Transitions.h */,
+				FEB912A01B60EA450055619F /* UINavigationController+Transitions.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			files = (
 				FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */,
 				FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */,
+				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
