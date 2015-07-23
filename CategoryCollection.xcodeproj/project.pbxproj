@@ -81,6 +81,10 @@
 		FE988C001B5E359100E71C89 /* CategoryCollection */ = {
 			isa = PBXGroup;
 			children = (
+				FEB9129C1B60E91B0055619F /* Foundation */,
+				FEB912981B60E9150055619F /* UIKit */,
+				FEB912971B60E9100055619F /* NSString */,
+				FEB912961B60E9080055619F /* NSObject */,
 				FE988C051B5E359100E71C89 /* AppDelegate.h */,
 				FE988C061B5E359100E71C89 /* AppDelegate.m */,
 				FE988C081B5E359100E71C89 /* ViewController.h */,
@@ -117,6 +121,74 @@
 				FE988C1C1B5E359200E71C89 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEB912961B60E9080055619F /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		FEB912971B60E9100055619F /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		FEB912981B60E9150055619F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FEB912991B60E9150055619F /* Base */,
+				FEB9129A1B60E9150055619F /* UIView */,
+				FEB9129B1B60E9150055619F /* UIViewController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FEB912991B60E9150055619F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FEB9129A1B60E9150055619F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		FEB9129B1B60E9150055619F /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		FEB9129C1B60E91B0055619F /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FEB9129D1B60E91B0055619F /* Base */,
+				FEB9129E1B60E91B0055619F /* Collection */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		FEB9129D1B60E91B0055619F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FEB9129E1B60E91B0055619F /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Collection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +490,7 @@
 				FE988C231B5E359200E71C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE988C241B5E359200E71C89 /* Build configuration list for PBXNativeTarget "CategoryCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +499,7 @@
 				FE988C261B5E359200E71C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
