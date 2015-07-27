@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AE21B66250F00A79CC1 /* UINavigationController+StackControl.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE6D7AE11B66250F00A79CC1 /* UINavigationController+StackControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StackControl.h"; sourceTree = "<group>"; };
+		FE6D7AE21B66250F00A79CC1 /* UINavigationController+StackControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StackControl.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 			children = (
 				FEB9129F1B60EA450055619F /* UINavigationController+Transitions.h */,
 				FEB912A01B60EA450055619F /* UINavigationController+Transitions.m */,
+				FE6D7AE11B66250F00A79CC1 /* UINavigationController+StackControl.h */,
+				FE6D7AE21B66250F00A79CC1 /* UINavigationController+StackControl.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */,
+				FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */,
 				FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */,
 				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
