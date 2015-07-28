@@ -13,6 +13,9 @@
 		FE6D7AF31B670B9F00A79CC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */; };
 		FE6D7AF61B670D0D00A79CC1 /* CALayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF51B670D0D00A79CC1 /* CALayer+Animation.m */; };
 		FE6D7AF91B670DF800A79CC1 /* UIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */; };
+		FE6D7AFC1B670EEF00A79CC1 /* UIButton+Darg.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AFB1B670EEE00A79CC1 /* UIButton+Darg.m */; };
+		FE6D7AFF1B670F4800A79CC1 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AFE1B670F4800A79CC1 /* UINavigationBar+Awesome.m */; };
+		FE6D7B021B670FBC00A79CC1 /* UIBarButtonItem+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B011B670FBC00A79CC1 /* UIBarButtonItem+Block.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -45,6 +48,12 @@
 		FE6D7AF51B670D0D00A79CC1 /* CALayer+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animation.m"; sourceTree = "<group>"; };
 		FE6D7AF71B670DF800A79CC1 /* UIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Hierarchy.h"; sourceTree = "<group>"; };
 		FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		FE6D7AFA1B670EEE00A79CC1 /* UIButton+Darg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Darg.h"; sourceTree = "<group>"; };
+		FE6D7AFB1B670EEE00A79CC1 /* UIButton+Darg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Darg.m"; sourceTree = "<group>"; };
+		FE6D7AFD1B670F4800A79CC1 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		FE6D7AFE1B670F4800A79CC1 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		FE6D7B001B670FBC00A79CC1 /* UIBarButtonItem+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Block.h"; sourceTree = "<group>"; };
+		FE6D7B011B670FBC00A79CC1 /* UIBarButtonItem+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Block.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -183,6 +192,12 @@
 			children = (
 				FE6D7AF71B670DF800A79CC1 /* UIWindow+Hierarchy.h */,
 				FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */,
+				FE6D7AFA1B670EEE00A79CC1 /* UIButton+Darg.h */,
+				FE6D7AFB1B670EEE00A79CC1 /* UIButton+Darg.m */,
+				FE6D7AFD1B670F4800A79CC1 /* UINavigationBar+Awesome.h */,
+				FE6D7AFE1B670F4800A79CC1 /* UINavigationBar+Awesome.m */,
+				FE6D7B001B670FBC00A79CC1 /* UIBarButtonItem+Block.h */,
+				FE6D7B011B670FBC00A79CC1 /* UIBarButtonItem+Block.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -330,9 +345,12 @@
 				FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */,
 				FE6D7AE61B66352600A79CC1 /* UISplitViewController+QuickAccess.m in Sources */,
 				FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */,
+				FE6D7AFC1B670EEF00A79CC1 /* UIButton+Darg.m in Sources */,
 				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
 				FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */,
+				FE6D7B021B670FBC00A79CC1 /* UIBarButtonItem+Block.m in Sources */,
+				FE6D7AFF1B670F4800A79CC1 /* UINavigationBar+Awesome.m in Sources */,
 				FE6D7AF91B670DF800A79CC1 /* UIWindow+Hierarchy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
