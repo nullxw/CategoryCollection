@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 JungleSong. All rights reserved.
 //
 
-#import "UISearchBar+JS.h"
+#import "UISearchBar+Block.h"
 #import <objc/runtime.h>
 
 /* Only for convenience and readabilty in delegate methods */

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 JungleSong. All rights reserved.
 //
 
-#import "UIViewController+JS.h"
+#import "UIViewController+Tool.h"
 
 @implementation UIViewController(JS)
 
