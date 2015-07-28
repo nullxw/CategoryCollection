@@ -19,6 +19,11 @@
 		FE6D7B051B67105000A79CC1 /* UITextView+PlaceHolde.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B041B67105000A79CC1 /* UITextView+PlaceHolde.m */; };
 		FE6D7B081B6710C000A79CC1 /* UITextField+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B071B6710C000A79CC1 /* UITextField+Block.m */; };
 		FE6D7B0B1B67111800A79CC1 /* UISearchBar+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B0A1B67111800A79CC1 /* UISearchBar+Block.m */; };
+		FE6D7B0F1B6711E100A79CC1 /* UIWebView+JavasScript.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B0E1B6711E100A79CC1 /* UIWebView+JavasScript.m */; };
+		FE6D7B121B6712F400A79CC1 /* UIWebView+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B111B6712F400A79CC1 /* UIWebView+Style.m */; };
+		FE6D7B151B6713BC00A79CC1 /* UIWebView+Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B141B6713BC00A79CC1 /* UIWebView+Modify.m */; };
+		FE6D7B181B67149700A79CC1 /* UIColor+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B171B67149700A79CC1 /* UIColor+JS.m */; };
+		FE6D7B211B6715C400A79CC1 /* UIWebView+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B201B6715C400A79CC1 /* UIWebView+Load.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -63,6 +68,16 @@
 		FE6D7B071B6710C000A79CC1 /* UITextField+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Block.m"; sourceTree = "<group>"; };
 		FE6D7B091B67111800A79CC1 /* UISearchBar+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+Block.h"; sourceTree = "<group>"; };
 		FE6D7B0A1B67111800A79CC1 /* UISearchBar+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+Block.m"; sourceTree = "<group>"; };
+		FE6D7B0D1B6711E100A79CC1 /* UIWebView+JavasScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+JavasScript.h"; sourceTree = "<group>"; };
+		FE6D7B0E1B6711E100A79CC1 /* UIWebView+JavasScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+JavasScript.m"; sourceTree = "<group>"; };
+		FE6D7B101B6712F400A79CC1 /* UIWebView+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Style.h"; sourceTree = "<group>"; };
+		FE6D7B111B6712F400A79CC1 /* UIWebView+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Style.m"; sourceTree = "<group>"; };
+		FE6D7B131B6713BC00A79CC1 /* UIWebView+Modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Modify.h"; sourceTree = "<group>"; };
+		FE6D7B141B6713BC00A79CC1 /* UIWebView+Modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Modify.m"; sourceTree = "<group>"; };
+		FE6D7B161B67149700A79CC1 /* UIColor+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JS.h"; sourceTree = "<group>"; };
+		FE6D7B171B67149700A79CC1 /* UIColor+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JS.m"; sourceTree = "<group>"; };
+		FE6D7B1F1B6715C400A79CC1 /* UIWebView+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Load.h"; sourceTree = "<group>"; };
+		FE6D7B201B6715C400A79CC1 /* UIWebView+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Load.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,10 +114,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE6D7B0C1B67118500A79CC1 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D7B0D1B6711E100A79CC1 /* UIWebView+JavasScript.h */,
+				FE6D7B0E1B6711E100A79CC1 /* UIWebView+JavasScript.m */,
+				FE6D7B101B6712F400A79CC1 /* UIWebView+Style.h */,
+				FE6D7B111B6712F400A79CC1 /* UIWebView+Style.m */,
+				FE6D7B131B6713BC00A79CC1 /* UIWebView+Modify.h */,
+				FE6D7B141B6713BC00A79CC1 /* UIWebView+Modify.m */,
+				FE6D7B1F1B6715C400A79CC1 /* UIWebView+Load.h */,
+				FE6D7B201B6715C400A79CC1 /* UIWebView+Load.m */,
+			);
+			name = UIWebView;
+			sourceTree = "<group>";
+		};
 		FE988BF51B5E359100E71C89 = {
 			isa = PBXGroup;
 			children = (
-				FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */,
 				FE988C001B5E359100E71C89 /* CategoryCollection */,
 				FE988C1A1B5E359200E71C89 /* CategoryCollectionTests */,
 				FE988BFF1B5E359100E71C89 /* Products */,
@@ -140,6 +169,7 @@
 		FE988C011B5E359100E71C89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */,
 				FE988C021B5E359100E71C89 /* Info.plist */,
 				FE988C031B5E359100E71C89 /* main.m */,
 			);
@@ -192,6 +222,8 @@
 			children = (
 				FE6D7AF41B670D0D00A79CC1 /* CALayer+Animation.h */,
 				FE6D7AF51B670D0D00A79CC1 /* CALayer+Animation.m */,
+				FE6D7B161B67149700A79CC1 /* UIColor+JS.h */,
+				FE6D7B171B67149700A79CC1 /* UIColor+JS.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -199,6 +231,7 @@
 		FEB9129A1B60E9150055619F /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D7B0C1B67118500A79CC1 /* UIWebView */,
 				FE6D7AF71B670DF800A79CC1 /* UIWindow+Hierarchy.h */,
 				FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */,
 				FE6D7AFA1B670EEE00A79CC1 /* UIButton+Darg.h */,
@@ -358,13 +391,18 @@
 				FE6D7AF61B670D0D00A79CC1 /* CALayer+Animation.m in Sources */,
 				FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */,
 				FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */,
+				FE6D7B151B6713BC00A79CC1 /* UIWebView+Modify.m in Sources */,
 				FE6D7AE61B66352600A79CC1 /* UISplitViewController+QuickAccess.m in Sources */,
+				FE6D7B211B6715C400A79CC1 /* UIWebView+Load.m in Sources */,
 				FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */,
+				FE6D7B121B6712F400A79CC1 /* UIWebView+Style.m in Sources */,
 				FE6D7B051B67105000A79CC1 /* UITextView+PlaceHolde.m in Sources */,
 				FE6D7B081B6710C000A79CC1 /* UITextField+Block.m in Sources */,
 				FE6D7AFC1B670EEF00A79CC1 /* UIButton+Darg.m in Sources */,
 				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
+				FE6D7B0F1B6711E100A79CC1 /* UIWebView+JavasScript.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
+				FE6D7B181B67149700A79CC1 /* UIColor+JS.m in Sources */,
 				FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */,
 				FE6D7B0B1B67111800A79CC1 /* UISearchBar+Block.m in Sources */,
 				FE6D7B021B670FBC00A79CC1 /* UIBarButtonItem+Block.m in Sources */,
