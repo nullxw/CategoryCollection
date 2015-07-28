@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AE21B66250F00A79CC1 /* UINavigationController+StackControl.m */; };
 		FE6D7AE61B66352600A79CC1 /* UISplitViewController+QuickAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AE51B66352600A79CC1 /* UISplitViewController+QuickAccess.m */; };
+		FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF01B670B6600A79CC1 /* UIViewController+Tool.m */; };
+		FE6D7AF31B670B9F00A79CC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -34,6 +36,9 @@
 		FE6D7AE21B66250F00A79CC1 /* UINavigationController+StackControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StackControl.m"; sourceTree = "<group>"; };
 		FE6D7AE41B66352600A79CC1 /* UISplitViewController+QuickAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+QuickAccess.h"; sourceTree = "<group>"; };
 		FE6D7AE51B66352600A79CC1 /* UISplitViewController+QuickAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+QuickAccess.m"; sourceTree = "<group>"; };
+		FE6D7AEF1B670B6600A79CC1 /* UIViewController+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tool.h"; sourceTree = "<group>"; };
+		FE6D7AF01B670B6600A79CC1 /* UIViewController+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tool.m"; sourceTree = "<group>"; };
+		FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6D7AF31B670B9F00A79CC1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +78,7 @@
 		FE988BF51B5E359100E71C89 = {
 			isa = PBXGroup;
 			children = (
+				FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */,
 				FE988C001B5E359100E71C89 /* CategoryCollection */,
 				FE988C1A1B5E359200E71C89 /* CategoryCollectionTests */,
 				FE988BFF1B5E359100E71C89 /* Products */,
@@ -179,6 +186,8 @@
 				FE6D7AE21B66250F00A79CC1 /* UINavigationController+StackControl.m */,
 				FE6D7AE41B66352600A79CC1 /* UISplitViewController+QuickAccess.h */,
 				FE6D7AE51B66352600A79CC1 /* UISplitViewController+QuickAccess.m */,
+				FE6D7AEF1B670B6600A79CC1 /* UIViewController+Tool.h */,
+				FE6D7AF01B670B6600A79CC1 /* UIViewController+Tool.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -312,6 +321,7 @@
 				FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */,
 				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
+				FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
