@@ -24,6 +24,7 @@
 		FE6D7B151B6713BC00A79CC1 /* UIWebView+Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B141B6713BC00A79CC1 /* UIWebView+Modify.m */; };
 		FE6D7B181B67149700A79CC1 /* UIColor+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B171B67149700A79CC1 /* UIColor+JS.m */; };
 		FE6D7B211B6715C400A79CC1 /* UIWebView+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B201B6715C400A79CC1 /* UIWebView+Load.m */; };
+		FE6D7B241B67170500A79CC1 /* UINavigationItem+Lock.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B231B67170500A79CC1 /* UINavigationItem+Lock.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -78,6 +79,8 @@
 		FE6D7B171B67149700A79CC1 /* UIColor+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JS.m"; sourceTree = "<group>"; };
 		FE6D7B1F1B6715C400A79CC1 /* UIWebView+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Load.h"; sourceTree = "<group>"; };
 		FE6D7B201B6715C400A79CC1 /* UIWebView+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Load.m"; sourceTree = "<group>"; };
+		FE6D7B221B67170500A79CC1 /* UINavigationItem+Lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Lock.h"; sourceTree = "<group>"; };
+		FE6D7B231B67170500A79CC1 /* UINavigationItem+Lock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Lock.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -240,6 +243,8 @@
 				FE6D7AFE1B670F4800A79CC1 /* UINavigationBar+Awesome.m */,
 				FE6D7B001B670FBC00A79CC1 /* UIBarButtonItem+Block.h */,
 				FE6D7B011B670FBC00A79CC1 /* UIBarButtonItem+Block.m */,
+				FE6D7B221B67170500A79CC1 /* UINavigationItem+Lock.h */,
+				FE6D7B231B67170500A79CC1 /* UINavigationItem+Lock.m */,
 				FE6D7B031B67105000A79CC1 /* UITextView+PlaceHolder.h */,
 				FE6D7B041B67105000A79CC1 /* UITextView+PlaceHolde.m */,
 				FE6D7B061B6710C000A79CC1 /* UITextField+Block.h */,
@@ -406,6 +411,7 @@
 				FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */,
 				FE6D7B0B1B67111800A79CC1 /* UISearchBar+Block.m in Sources */,
 				FE6D7B021B670FBC00A79CC1 /* UIBarButtonItem+Block.m in Sources */,
+				FE6D7B241B67170500A79CC1 /* UINavigationItem+Lock.m in Sources */,
 				FE6D7AFF1B670F4800A79CC1 /* UINavigationBar+Awesome.m in Sources */,
 				FE6D7AF91B670DF800A79CC1 /* UIWindow+Hierarchy.m in Sources */,
 			);
