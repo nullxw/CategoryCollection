@@ -10,6 +10,12 @@
 
 @interface NSData(Encryption)
 
+#pragma mark- base64
+//
++ (NSData *)dataWithBase64EncodedString:(NSString *)string;
+- (NSString *)base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
+- (NSString *)base64EncodedString;
+
 #pragma mark- encrypt
 
 /**

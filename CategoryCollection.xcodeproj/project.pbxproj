@@ -34,6 +34,12 @@
 		FE6D7B391B67209800A79CC1 /* NSURL+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B381B67209800A79CC1 /* NSURL+Parameter.m */; };
 		FE6D7B3F1B6722C200A79CC1 /* NSIndexPath+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B3E1B6722C200A79CC1 /* NSIndexPath+Offset.m */; };
 		FE6D7B421B6723CB00A79CC1 /* NSNumber+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B411B6723CB00A79CC1 /* NSNumber+JS.m */; };
+		FE6D7B481B67272700A79CC1 /* NSString+Emojize.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B451B67272700A79CC1 /* NSString+Emojize.m */; };
+		FE6D7B491B67272700A79CC1 /* NSString+RemoveEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B471B67272700A79CC1 /* NSString+RemoveEmoji.m */; };
+		FE6D7B4C1B6727C700A79CC1 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B4B1B6727C700A79CC1 /* NSObject+Property.m */; };
+		FE6D7B531B6727D300A79CC1 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B4E1B6727D300A79CC1 /* NSObject+Additions.m */; };
+		FE6D7B541B6727D300A79CC1 /* NSObject+AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B501B6727D300A79CC1 /* NSObject+AutoCoding.m */; };
+		FE6D7B551B6727D300A79CC1 /* NSObject+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B521B6727D300A79CC1 /* NSObject+JS.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -108,6 +114,19 @@
 		FE6D7B3E1B6722C200A79CC1 /* NSIndexPath+Offset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+Offset.m"; sourceTree = "<group>"; };
 		FE6D7B401B6723CB00A79CC1 /* NSNumber+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+JS.h"; sourceTree = "<group>"; };
 		FE6D7B411B6723CB00A79CC1 /* NSNumber+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+JS.m"; sourceTree = "<group>"; };
+		FE6D7B431B67271400A79CC1 /* emojis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emojis.h; sourceTree = "<group>"; };
+		FE6D7B441B67272700A79CC1 /* NSString+Emojize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emojize.h"; sourceTree = "<group>"; };
+		FE6D7B451B67272700A79CC1 /* NSString+Emojize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emojize.m"; sourceTree = "<group>"; };
+		FE6D7B461B67272700A79CC1 /* NSString+RemoveEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveEmoji.h"; sourceTree = "<group>"; };
+		FE6D7B471B67272700A79CC1 /* NSString+RemoveEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RemoveEmoji.m"; sourceTree = "<group>"; };
+		FE6D7B4A1B6727C700A79CC1 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		FE6D7B4B1B6727C700A79CC1 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		FE6D7B4D1B6727D300A79CC1 /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		FE6D7B4E1B6727D300A79CC1 /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		FE6D7B4F1B6727D300A79CC1 /* NSObject+AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoCoding.h"; sourceTree = "<group>"; };
+		FE6D7B501B6727D300A79CC1 /* NSObject+AutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoCoding.m"; sourceTree = "<group>"; };
+		FE6D7B511B6727D300A79CC1 /* NSObject+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JS.h"; sourceTree = "<group>"; };
+		FE6D7B521B6727D300A79CC1 /* NSObject+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JS.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -226,6 +245,14 @@
 		FEB912961B60E9080055619F /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D7B4A1B6727C700A79CC1 /* NSObject+Property.h */,
+				FE6D7B4B1B6727C700A79CC1 /* NSObject+Property.m */,
+				FE6D7B4D1B6727D300A79CC1 /* NSObject+Additions.h */,
+				FE6D7B4E1B6727D300A79CC1 /* NSObject+Additions.m */,
+				FE6D7B4F1B6727D300A79CC1 /* NSObject+AutoCoding.h */,
+				FE6D7B501B6727D300A79CC1 /* NSObject+AutoCoding.m */,
+				FE6D7B511B6727D300A79CC1 /* NSObject+JS.h */,
+				FE6D7B521B6727D300A79CC1 /* NSObject+JS.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -233,6 +260,11 @@
 		FEB912971B60E9100055619F /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D7B431B67271400A79CC1 /* emojis.h */,
+				FE6D7B441B67272700A79CC1 /* NSString+Emojize.h */,
+				FE6D7B451B67272700A79CC1 /* NSString+Emojize.m */,
+				FE6D7B461B67272700A79CC1 /* NSString+RemoveEmoji.h */,
+				FE6D7B471B67272700A79CC1 /* NSString+RemoveEmoji.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -440,9 +472,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6D7B481B67272700A79CC1 /* NSString+Emojize.m in Sources */,
 				FE6D7B361B67204100A79CC1 /* NSException+Debug.m in Sources */,
 				FE6D7B2D1B671D6900A79CC1 /* NSData+Encryption.m in Sources */,
 				FE6D7AF61B670D0D00A79CC1 /* CALayer+Animation.m in Sources */,
+				FE6D7B551B6727D300A79CC1 /* NSObject+JS.m in Sources */,
 				FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */,
 				FE6D7B331B671EB900A79CC1 /* NSData+Cache.m in Sources */,
 				FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */,
@@ -455,12 +489,16 @@
 				FE6D7B121B6712F400A79CC1 /* UIWebView+Style.m in Sources */,
 				FE6D7B051B67105000A79CC1 /* UITextView+PlaceHolde.m in Sources */,
 				FE6D7B081B6710C000A79CC1 /* UITextField+Block.m in Sources */,
+				FE6D7B4C1B6727C700A79CC1 /* NSObject+Property.m in Sources */,
+				FE6D7B531B6727D300A79CC1 /* NSObject+Additions.m in Sources */,
+				FE6D7B541B6727D300A79CC1 /* NSObject+AutoCoding.m in Sources */,
 				FE6D7AFC1B670EEF00A79CC1 /* UIButton+Darg.m in Sources */,
 				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
 				FE6D7B0F1B6711E100A79CC1 /* UIWebView+JavasScript.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
 				FE6D7B181B67149700A79CC1 /* UIColor+JS.m in Sources */,
 				FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */,
+				FE6D7B491B67272700A79CC1 /* NSString+RemoveEmoji.m in Sources */,
 				FE6D7B0B1B67111800A79CC1 /* UISearchBar+Block.m in Sources */,
 				FE6D7B301B671E2A00A79CC1 /* NSData+GZip.m in Sources */,
 				FE6D7B3F1B6722C200A79CC1 /* NSIndexPath+Offset.m in Sources */,
