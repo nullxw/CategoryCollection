@@ -16,6 +16,7 @@
 		FE6D7AFC1B670EEF00A79CC1 /* UIButton+Darg.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AFB1B670EEE00A79CC1 /* UIButton+Darg.m */; };
 		FE6D7AFF1B670F4800A79CC1 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AFE1B670F4800A79CC1 /* UINavigationBar+Awesome.m */; };
 		FE6D7B021B670FBC00A79CC1 /* UIBarButtonItem+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B011B670FBC00A79CC1 /* UIBarButtonItem+Block.m */; };
+		FE6D7B051B67105000A79CC1 /* UITextView+PlaceHolde.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B041B67105000A79CC1 /* UITextView+PlaceHolde.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -54,6 +55,8 @@
 		FE6D7AFE1B670F4800A79CC1 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		FE6D7B001B670FBC00A79CC1 /* UIBarButtonItem+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Block.h"; sourceTree = "<group>"; };
 		FE6D7B011B670FBC00A79CC1 /* UIBarButtonItem+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Block.m"; sourceTree = "<group>"; };
+		FE6D7B031B67105000A79CC1 /* UITextView+PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+PlaceHolder.h"; sourceTree = "<group>"; };
+		FE6D7B041B67105000A79CC1 /* UITextView+PlaceHolde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+PlaceHolde.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 				FE6D7AFE1B670F4800A79CC1 /* UINavigationBar+Awesome.m */,
 				FE6D7B001B670FBC00A79CC1 /* UIBarButtonItem+Block.h */,
 				FE6D7B011B670FBC00A79CC1 /* UIBarButtonItem+Block.m */,
+				FE6D7B031B67105000A79CC1 /* UITextView+PlaceHolder.h */,
+				FE6D7B041B67105000A79CC1 /* UITextView+PlaceHolde.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */,
 				FE6D7AE61B66352600A79CC1 /* UISplitViewController+QuickAccess.m in Sources */,
 				FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */,
+				FE6D7B051B67105000A79CC1 /* UITextView+PlaceHolde.m in Sources */,
 				FE6D7AFC1B670EEF00A79CC1 /* UIButton+Darg.m in Sources */,
 				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
