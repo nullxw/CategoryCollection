@@ -221,6 +221,7 @@
 				FE6D7B201B6715C400A79CC1 /* UIWebView+Load.m */,
 			);
 			name = UIWebView;
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		FE6D7B671B672A0900A79CC1 /* lib */ = {
@@ -327,6 +328,7 @@
 		FEB912981B60E9150055619F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D7B0C1B67118500A79CC1 /* UIWebView */,
 				FEB912991B60E9150055619F /* Base */,
 				FEB9129A1B60E9150055619F /* View */,
 				FEB9129B1B60E9150055619F /* ViewController */,
@@ -348,7 +350,6 @@
 		FEB9129A1B60E9150055619F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FE6D7B0C1B67118500A79CC1 /* UIWebView */,
 				FE6D7AF71B670DF800A79CC1 /* UIWindow+Hierarchy.h */,
 				FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */,
 				FE6D7B6A1B672C8C00A79CC1 /* UIScrollView+JS.h */,
