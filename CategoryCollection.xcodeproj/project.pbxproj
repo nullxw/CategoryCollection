@@ -11,6 +11,7 @@
 		FE6D7AE61B66352600A79CC1 /* UISplitViewController+QuickAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AE51B66352600A79CC1 /* UISplitViewController+QuickAccess.m */; };
 		FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF01B670B6600A79CC1 /* UIViewController+Tool.m */; };
 		FE6D7AF31B670B9F00A79CC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */; };
+		FE6D7AF61B670D0D00A79CC1 /* CALayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF51B670D0D00A79CC1 /* CALayer+Animation.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 		FE6D7AEF1B670B6600A79CC1 /* UIViewController+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tool.h"; sourceTree = "<group>"; };
 		FE6D7AF01B670B6600A79CC1 /* UIViewController+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tool.m"; sourceTree = "<group>"; };
 		FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE6D7AF41B670D0D00A79CC1 /* CALayer+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Animation.h"; sourceTree = "<group>"; };
+		FE6D7AF51B670D0D00A79CC1 /* CALayer+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animation.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 		FEB912991B60E9150055619F /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D7AF41B670D0D00A79CC1 /* CALayer+Animation.h */,
+				FE6D7AF51B670D0D00A79CC1 /* CALayer+Animation.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6D7AF61B670D0D00A79CC1 /* CALayer+Animation.m in Sources */,
 				FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */,
 				FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */,
 				FE6D7AE61B66352600A79CC1 /* UISplitViewController+QuickAccess.m in Sources */,
