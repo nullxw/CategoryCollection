@@ -13,6 +13,7 @@
 
 @implementation NSData(GZip)
 
+#pragma GCC diagnostic ignored "-Wselector"
 #pragma mark- gzip
 
 /**

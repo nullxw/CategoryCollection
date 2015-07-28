@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 JungleSong. All rights reserved.
 //
 
-#import "UIWindow+JS.h"
+#import "UIWindow+Hierarchy.h"
 
 @implementation UIWindow(JS)
 #pragma mark- Hierarchy
