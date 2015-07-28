@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 JungleSong. All rights reserved.
 //
 
-#import "CALayer+JS.h"
+#import "CALayer+Animation.h"
 
-@implementation CALayer (JS)
+@implementation CALayer (Animation)
 
 
 -(CAAnimation *)anim_shake:(NSArray *)rotations duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount{

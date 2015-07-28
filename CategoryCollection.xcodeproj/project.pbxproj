@@ -12,6 +12,7 @@
 		FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF01B670B6600A79CC1 /* UIViewController+Tool.m */; };
 		FE6D7AF31B670B9F00A79CC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */; };
 		FE6D7AF61B670D0D00A79CC1 /* CALayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF51B670D0D00A79CC1 /* CALayer+Animation.m */; };
+		FE6D7AF91B670DF800A79CC1 /* UIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 		FE6D7AF21B670B9F00A79CC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE6D7AF41B670D0D00A79CC1 /* CALayer+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Animation.h"; sourceTree = "<group>"; };
 		FE6D7AF51B670D0D00A79CC1 /* CALayer+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animation.m"; sourceTree = "<group>"; };
+		FE6D7AF71B670DF800A79CC1 /* UIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Hierarchy.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 		FEB9129A1B60E9150055619F /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D7AF71B670DF800A79CC1 /* UIWindow+Hierarchy.h */,
+				FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
 				FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */,
+				FE6D7AF91B670DF800A79CC1 /* UIWindow+Hierarchy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
