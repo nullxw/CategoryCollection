@@ -18,6 +18,7 @@
 		FE6D7B021B670FBC00A79CC1 /* UIBarButtonItem+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B011B670FBC00A79CC1 /* UIBarButtonItem+Block.m */; };
 		FE6D7B051B67105000A79CC1 /* UITextView+PlaceHolde.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B041B67105000A79CC1 /* UITextView+PlaceHolde.m */; };
 		FE6D7B081B6710C000A79CC1 /* UITextField+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B071B6710C000A79CC1 /* UITextField+Block.m */; };
+		FE6D7B0B1B67111800A79CC1 /* UISearchBar+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B0A1B67111800A79CC1 /* UISearchBar+Block.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
 		FE988C071B5E359100E71C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C061B5E359100E71C89 /* AppDelegate.m */; };
 		FE988C0A1B5E359100E71C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C091B5E359100E71C89 /* ViewController.m */; };
@@ -60,6 +61,8 @@
 		FE6D7B041B67105000A79CC1 /* UITextView+PlaceHolde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+PlaceHolde.m"; sourceTree = "<group>"; };
 		FE6D7B061B6710C000A79CC1 /* UITextField+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Block.h"; sourceTree = "<group>"; };
 		FE6D7B071B6710C000A79CC1 /* UITextField+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Block.m"; sourceTree = "<group>"; };
+		FE6D7B091B67111800A79CC1 /* UISearchBar+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+Block.h"; sourceTree = "<group>"; };
+		FE6D7B0A1B67111800A79CC1 /* UISearchBar+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+Block.m"; sourceTree = "<group>"; };
 		FE988BFE1B5E359100E71C89 /* CategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE988C021B5E359100E71C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE988C031B5E359100E71C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				FE6D7B041B67105000A79CC1 /* UITextView+PlaceHolde.m */,
 				FE6D7B061B6710C000A79CC1 /* UITextField+Block.h */,
 				FE6D7B071B6710C000A79CC1 /* UITextField+Block.m */,
+				FE6D7B091B67111800A79CC1 /* UISearchBar+Block.h */,
+				FE6D7B0A1B67111800A79CC1 /* UISearchBar+Block.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 				FEB912A11B60EA450055619F /* UINavigationController+Transitions.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
 				FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */,
+				FE6D7B0B1B67111800A79CC1 /* UISearchBar+Block.m in Sources */,
 				FE6D7B021B670FBC00A79CC1 /* UIBarButtonItem+Block.m in Sources */,
 				FE6D7AFF1B670F4800A79CC1 /* UINavigationBar+Awesome.m in Sources */,
 				FE6D7AF91B670DF800A79CC1 /* UIWindow+Hierarchy.m in Sources */,
