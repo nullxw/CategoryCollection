@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE19F9BE1C3B0F6A009986FE /* UIDevice+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9BD1C3B0F6A009986FE /* UIDevice+JS.m */; };
 		FE6D7AE31B66250F00A79CC1 /* UINavigationController+StackControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AE21B66250F00A79CC1 /* UINavigationController+StackControl.m */; };
 		FE6D7AE61B66352600A79CC1 /* UISplitViewController+QuickAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AE51B66352600A79CC1 /* UISplitViewController+QuickAccess.m */; };
 		FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7AF01B670B6600A79CC1 /* UIViewController+Tool.m */; };
@@ -48,7 +49,6 @@
 		FE6D7B661B6729FB00A79CC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6D7B651B6729FB00A79CC1 /* CoreGraphics.framework */; };
 		FE6D7B691B672B3400A79CC1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6D7B681B672B3400A79CC1 /* libz.dylib */; };
 		FE6D7B6C1B672C8C00A79CC1 /* UIScrollView+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B6B1B672C8C00A79CC1 /* UIScrollView+JS.m */; };
-		FE6D7B6F1B672CA200A79CC1 /* UITextField+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B6E1B672CA200A79CC1 /* UITextField+JS.m */; };
 		FE6D7B721B672CCD00A79CC1 /* UIFont+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B711B672CCD00A79CC1 /* UIFont+JS.m */; };
 		FE6D7B751B672CE300A79CC1 /* UIControl+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B741B672CE300A79CC1 /* UIControl+JS.m */; };
 		FE6D7B781B672CFB00A79CC1 /* UIApplication+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B771B672CFB00A79CC1 /* UIApplication+JS.m */; };
@@ -57,7 +57,6 @@
 		FE6D7B811B672D6800A79CC1 /* UIBezierPath+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B801B672D6800A79CC1 /* UIBezierPath+JS.m */; };
 		FE6D7B841B674EC500A79CC1 /* UIView+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B831B674EC500A79CC1 /* UIView+JS.m */; };
 		FE6D7B871B674ED800A79CC1 /* UILabel+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B861B674ED800A79CC1 /* UILabel+JS.m */; };
-		FE6D7B8A1B674FDE00A79CC1 /* UIDevice+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B891B674FDE00A79CC1 /* UIDevice+JS.m */; };
 		FE6D7B8F1B67500000A79CC1 /* UIImage+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B8C1B67500000A79CC1 /* UIImage+JS.m */; };
 		FE6D7B901B67500000A79CC1 /* UIImageView+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7B8E1B67500000A79CC1 /* UIImageView+JS.m */; };
 		FE988C041B5E359100E71C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988C031B5E359100E71C89 /* main.m */; };
@@ -94,6 +93,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE19F9BC1C3B0F6A009986FE /* UIDevice+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JS.h"; sourceTree = "<group>"; };
+		FE19F9BD1C3B0F6A009986FE /* UIDevice+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JS.m"; sourceTree = "<group>"; };
 		FE6D7AE11B66250F00A79CC1 /* UINavigationController+StackControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StackControl.h"; sourceTree = "<group>"; };
 		FE6D7AE21B66250F00A79CC1 /* UINavigationController+StackControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StackControl.m"; sourceTree = "<group>"; };
 		FE6D7AE41B66352600A79CC1 /* UISplitViewController+QuickAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+QuickAccess.h"; sourceTree = "<group>"; };
@@ -174,8 +175,6 @@
 		FE6D7B681B672B3400A79CC1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		FE6D7B6A1B672C8C00A79CC1 /* UIScrollView+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JS.h"; sourceTree = "<group>"; };
 		FE6D7B6B1B672C8C00A79CC1 /* UIScrollView+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JS.m"; sourceTree = "<group>"; };
-		FE6D7B6D1B672CA200A79CC1 /* UITextField+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JS.h"; sourceTree = "<group>"; };
-		FE6D7B6E1B672CA200A79CC1 /* UITextField+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JS.m"; sourceTree = "<group>"; };
 		FE6D7B701B672CCD00A79CC1 /* UIFont+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+JS.h"; sourceTree = "<group>"; };
 		FE6D7B711B672CCD00A79CC1 /* UIFont+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JS.m"; sourceTree = "<group>"; };
 		FE6D7B731B672CE300A79CC1 /* UIControl+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+JS.h"; sourceTree = "<group>"; };
@@ -192,8 +191,6 @@
 		FE6D7B831B674EC500A79CC1 /* UIView+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JS.m"; sourceTree = "<group>"; };
 		FE6D7B851B674ED800A79CC1 /* UILabel+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+JS.h"; sourceTree = "<group>"; };
 		FE6D7B861B674ED800A79CC1 /* UILabel+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JS.m"; sourceTree = "<group>"; };
-		FE6D7B881B674FDE00A79CC1 /* UIDevice+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JS.h"; sourceTree = "<group>"; };
-		FE6D7B891B674FDE00A79CC1 /* UIDevice+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JS.m"; sourceTree = "<group>"; };
 		FE6D7B8B1B67500000A79CC1 /* UIImage+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JS.h"; sourceTree = "<group>"; };
 		FE6D7B8C1B67500000A79CC1 /* UIImage+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JS.m"; sourceTree = "<group>"; };
 		FE6D7B8D1B67500000A79CC1 /* UIImageView+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JS.h"; sourceTree = "<group>"; };
@@ -448,8 +445,6 @@
 				FE6D7AF81B670DF800A79CC1 /* UIWindow+Hierarchy.m */,
 				FE6D7B6A1B672C8C00A79CC1 /* UIScrollView+JS.h */,
 				FE6D7B6B1B672C8C00A79CC1 /* UIScrollView+JS.m */,
-				FE6D7B6D1B672CA200A79CC1 /* UITextField+JS.h */,
-				FE6D7B6E1B672CA200A79CC1 /* UITextField+JS.m */,
 				FE6D7AFA1B670EEE00A79CC1 /* UIButton+Darg.h */,
 				FE6D7AFB1B670EEE00A79CC1 /* UIButton+Darg.m */,
 				FE6D7AFD1B670F4800A79CC1 /* UINavigationBar+Awesome.h */,
@@ -464,8 +459,8 @@
 				FE6D7B071B6710C000A79CC1 /* UITextField+Block.m */,
 				FE6D7B091B67111800A79CC1 /* UISearchBar+Block.h */,
 				FE6D7B0A1B67111800A79CC1 /* UISearchBar+Block.m */,
-				FE6D7B881B674FDE00A79CC1 /* UIDevice+JS.h */,
-				FE6D7B891B674FDE00A79CC1 /* UIDevice+JS.m */,
+				FE19F9BC1C3B0F6A009986FE /* UIDevice+JS.h */,
+				FE19F9BD1C3B0F6A009986FE /* UIDevice+JS.m */,
 			);
 			name = View;
 			path = UIView;
@@ -652,7 +647,6 @@
 			files = (
 				FE6D7B481B67272700A79CC1 /* NSString+Emojize.m in Sources */,
 				FE6D7B361B67204100A79CC1 /* NSException+Debug.m in Sources */,
-				FE6D7B8A1B674FDE00A79CC1 /* UIDevice+JS.m in Sources */,
 				FE6D7B2D1B671D6900A79CC1 /* NSData+Encryption.m in Sources */,
 				FE6D7AF61B670D0D00A79CC1 /* CALayer+Animation.m in Sources */,
 				FE6D7B551B6727D300A79CC1 /* NSObject+JS.m in Sources */,
@@ -687,12 +681,12 @@
 				FEB53CED1B9A88BA00DD31C8 /* NSData+JS.m in Sources */,
 				FE6D7B7B1B672D0A00A79CC1 /* UIScreen+JS.m in Sources */,
 				FE6D7B811B672D6800A79CC1 /* UIBezierPath+JS.m in Sources */,
+				FE19F9BE1C3B0F6A009986FE /* UIDevice+JS.m in Sources */,
 				FE988C041B5E359100E71C89 /* main.m in Sources */,
 				FE6D7B181B67149700A79CC1 /* UIColor+JS.m in Sources */,
 				FE6D7AF11B670B6600A79CC1 /* UIViewController+Tool.m in Sources */,
 				FEB53CF01B9A88BA00DD31C8 /* NullSafe.m in Sources */,
 				FE6D7B751B672CE300A79CC1 /* UIControl+JS.m in Sources */,
-				FE6D7B6F1B672CA200A79CC1 /* UITextField+JS.m in Sources */,
 				FE6D7B611B67299C00A79CC1 /* NSMutableDictionary+JS.m in Sources */,
 				FE6D7B7E1B672D1C00A79CC1 /* UIResponder+JS.m in Sources */,
 				FE6D7B491B67272700A79CC1 /* NSString+RemoveEmoji.m in Sources */,

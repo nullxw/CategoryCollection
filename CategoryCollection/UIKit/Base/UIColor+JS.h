@@ -18,7 +18,7 @@
 
 
 + (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger;
-+ (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger andAlpha:(CGFloat)alpha;
++ (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger alpha:(CGFloat)alpha;
 
 
 - (NSString *)HEXString;
@@ -36,7 +36,7 @@
 + (UIColor *)colorWithR:(CGFloat)red G:(CGFloat)green B:(CGFloat)blue A:(CGFloat)alpha;
 
 #pragma mark- Random
-+ (UIColor *)RandomColor;
++ (UIColor *)randomColor;
 
 #pragma mark- gradient
 /**
@@ -54,6 +54,7 @@
  *  获取网页颜色字串
  */
 - (NSString *)webColorString;
+
 #pragma mark- modify
 
 - (UIColor *)invertedColor;

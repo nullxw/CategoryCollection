@@ -1221,7 +1221,7 @@ static UIImage *animatedImageWithAnimatedGIFReleasingImageSource(CGImageSourceRe
     return [self resizedIMageWithName:name left:0.5 top:0.5];
 }
 
-+(UIImage *)resizedIMageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top
++(UIImage *)resizedImageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top
 {
     UIImage *image = [self imageNamed:name];
     return [image stretchableImageWithLeftCapWidth:image.size.width * left topCapHeight:image.size.height * top];

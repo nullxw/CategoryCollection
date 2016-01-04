@@ -23,10 +23,10 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
 
 + (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger
 {
-    return [UIColor colorWithHexColorInteger:hexColorInteger andAlpha:1];
+    return [UIColor colorWithHexColorInteger:hexColorInteger alpha:1];
 }
 
-+ (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger andAlpha:(CGFloat)alpha
++ (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger alpha:(CGFloat)alpha
 {
 
     return [UIColor colorWithRed:((hexColorInteger >> 16) & 0xFF)/255.0
@@ -118,7 +118,7 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
 
 #pragma mark- Random
 
-+ (UIColor *)RandomColor {
++ (UIColor *)randomColor {
     NSInteger aRedValue = arc4random() % 255;
     NSInteger aGreenValue = arc4random() % 255;
     NSInteger aBlueValue = arc4random() % 255;
